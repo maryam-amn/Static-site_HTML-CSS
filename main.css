@@ -8,7 +8,6 @@
     box-shadow: 0px 8px 20px 5px #00000014;
 }
 
-
 .merriweather-regular {
     font-family: "Merriweather", serif;
     font-weight: 400;
@@ -49,8 +48,6 @@
 
 }
 
-
-
 .logo_zebb {
     width: 127.87px;
     /* Adjust the width as needed */
@@ -70,7 +67,7 @@
 .page_position {
     display: flex;
     justify-content: space-between;
-
+    height: 1008px;
     gap: 48px;
 }
 
@@ -89,7 +86,7 @@
 
 .textDrink {
     padding-left: 150px;
-  
+
     padding-top: 250px;
     padding-bottom: 300px;
 
@@ -112,7 +109,6 @@ mark {
 .textSeeOur {
 
     padding: 24px 40px 24px 40px;
-    gap: 56px;
     background: #020E35;
     color: #FFFFFF;
     font-family: Merriweather;
@@ -124,4 +120,128 @@ mark {
 
 }
 
+.secondpage {
+    display: flex;
+    justify-content: space-between;
+    height: 708px;
+}
 
+.illustrationGroup {
+
+
+    top: 1092.03px;
+    padding: 100px 150px 100px 150px;
+
+
+}
+
+#box {
+    width: 517px;
+    padding: 100px 150px 100px 150px;
+}
+
+
+.p1 {
+    width: 517px;
+    color: #020E35;
+
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+
+
+}
+
+.Powered {
+
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 62px;
+    text-align: left;
+    width: 428px;
+
+    background: linear-gradient(to top, #FF5678 20%, transparent 20%);
+
+}
+
+.LearnMore {
+    padding: 24px 40px 24px 40px;
+    background: #020E35;
+    color: #FFFFFF;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    box-shadow: 0px 20px 40px 5px #00000040;
+}
+
+/* Start of the buton play*/
+
+
+.player {
+    background: #FF5678;
+    width: 50px;
+    height: 50px;
+    border: solid 5px #FF5678;
+    border-radius: 100%;
+    position: relative;
+    text-indent: -9999px;
+    box-shadow: 1px 1px 3px #999999;
+    transition: none;
+
+}
+
+.player span {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid #fff;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+}
+
+.player:hover {
+    background: #FF5678;
+    /* Gardez la même couleur pour le fond */
+    cursor: pointer;
+    border: solid 5px #FF5678;
+    /* Gardez la bordure */
+    box-shadow: 1px 1px 3px #999999;
+    /* Gardez l'ombre */
+}
+
+.player:hover span {
+    top: 20%;
+    /* Ne changez pas la position du span */
+    left: 36%;
+    /* Ne changez pas la position du span */
+
+}
+
+.alignBouton {
+    align-items: center;
+    display: flex;
+    gap: 63px;
+}
+
+/* End  of the buton play*/
+.Watch {
+    width: 120px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.alignWatch {
+    align-items: center;
+    display: flex;
+    gap: 24px;
+}

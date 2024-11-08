@@ -100,7 +100,7 @@
     color: #020E35;
 }
 
-mark {
+.colour {
     color: #FFFFFF;
     background-color: #FF5678;
     ;
@@ -127,19 +127,14 @@ mark {
 }
 
 .illustrationGroup {
-
-
     top: 1092.03px;
     padding: 100px 150px 100px 150px;
-
-
 }
 
 #box {
     width: 517px;
     padding: 100px 150px 100px 150px;
 }
-
 
 .p1 {
     width: 517px;
@@ -150,8 +145,6 @@ mark {
     font-weight: 400;
     line-height: 23px;
     text-align: left;
-
-
 }
 
 .Powered {
@@ -229,7 +222,6 @@ mark {
     display: flex;
     gap: 63px;
 }
-
 /* End  of the buton play*/
 .Watch {
     width: 120px;
@@ -247,11 +239,11 @@ mark {
 }
 
 /*Start of the Third page */
-.Thirdpage {
 
+.Thirdpage {
     display: flex;
-    justify-content: space-between;
     height: 792px;
+
 }
 
 .ThirdSize {
@@ -383,3 +375,78 @@ mark {
 
 }
 /*end of the third page */
+
+/*Start of the four page*/
+
+.dimension {
+
+    width: 1920px;
+    height: 870px;
+
+
+}
+
+.boxfour {
+    padding: 100px 150px 100px 150px;
+    width: 664px;
+    height: 503px;
+}
+
+.sizeFour {
+    display: flex;
+    justify-content: space-between;
+    height: 708px;
+}
+
+.Title4 {
+    width: 664px;
+    height: 216px;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    color: #020E35;
+    padding-bottom: 60px;
+}
+.backgroud4 {
+    width: 406px;
+    background: linear-gradient(to top, #FF5678 34px, transparent 0%);
+}
+.Text4 {
+    width: 481px;
+    height: 96px;
+    gap: 0px;
+    opacity: 0px;
+    padding-bottom: 60px;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #020E35;
+}
+
+.img4 {
+    top: 1092.03px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 780px;
+    height: 670px;
+}
+.LearnMore4 {
+    padding: 24px 40px 24px 40px;
+    background: #020E35;
+    color: #FFFFFF;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    box-shadow: 0px 20px 40px 5px #00000040;
+    width: 184px;
+}
+/*End of the four page*/

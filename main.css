@@ -527,7 +527,6 @@
     color: #020E35;
     padding-left: 66.5px;
 }
-
 /*Mark section */
 
 .textMarK {
@@ -593,7 +592,6 @@
     padding-left: 176.5px;
     padding-right: 176.5px;
     padding-bottom: 88px;
-
 }
 
 .TitleDavid {
@@ -646,7 +644,6 @@
 }
 
 .TitleJone {
-
     font-family: Merriweather;
     font-size: 28px;
     font-weight: 700;
@@ -658,12 +655,6 @@
 }
 
 .TextDavid {
-
-
-
-    gap: 0px;
-    opacity: 0px;
-
     font-family: Merriweather;
     font-size: 18px;
     font-weight: 400;
@@ -672,20 +663,15 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #020E35;
-
-
 }
-
 
 /*Alice section */
 .PositionAlice {
-
     width: 196px;
     height: 83px;
     padding-left: 161.5px;
     padding-right: 161.5px;
     padding-bottom: 88px;
-
 }
 
 .TitleAlice {
@@ -900,3 +886,128 @@ color: #020E35;
     height: 71px;
   
 }
+/*Page 7*/
+.Dimension7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1280px;
+}
+.potionTest{
+    padding-top: 100px;
+    padding-left: 775.5px;
+    padding-right: 775.5px;
+    gap: 20px;
+}
+.TitleTestimony{
+    width: 330px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #020E35;
+
+}
+.TextTestimony{
+    width: 369px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #020E35;
+   
+}
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding-top: 100px;
+}
+
+.frame1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 46px;
+    width: 412px;
+    height: 555px;
+    border: 1px solid #949494;
+    border-radius: 150px;
+}
+
+.frame2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 46px;
+    width: 460px;
+    height: 672px;
+    border: 1px solid #949494;
+    border-radius: 150px;
+}
+
+.frame-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 253px;
+    height: 340px;
+}
+
+.frame-text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 380px;
+    height: 317px;
+}
+
+.frame-photo {
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.star {
+    display: flex;
+    width: 29px;
+    height: 27px;
+   
+}
+.direction-LeftRight{
+display: flex;
+justify-content: space-between;
+height: 80px;
+width: 1620px;
+padding-left: 150px;
+padding-right: 150px;
+padding-top: 100px;
+}
+

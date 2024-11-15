@@ -1089,6 +1089,7 @@ input {
     border-radius: 10px;
     border: 1px solid #020E35;
 }
+
 input[name=fname] {
     height: 70px;
     border: 1px solid #020E35;
@@ -1116,34 +1117,181 @@ label[for=fname] {
     gap: 20px;
 }
 
-button[type=button]{
+button[type=button] {
+    padding: 24px 40px 24px 40px;
+    background: #020E35;
+    color: #FFFFFF;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    box-shadow: 0px 20px 40px 5px #00000040;
+    height: 71px;
+    width: 205px;
+    cursor: pointer;
+}
 
-        padding: 24px 40px 24px 40px;
-        background: #020E35;
-        color: #FFFFFF;
-        font-family: Merriweather;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 23px;
-        text-align: center;
-        box-shadow: 0px 20px 40px 5px #00000040;
-        height: 71px;
-        width: 205px;
-        cursor: pointer;
-  }
-  /*Page 9*/
-.Diemnsion9{
+/*Page 9*/
+.Dimension9 {
     display: flex;
-    width: 1920px;
-    height: 870px;
-    
-  }
-  .SizeoftheForm2 {
+}
+
+.SizeoftheForm2 {
     width: 656px;
     height: 337px;
     gap: 40px;
     display: grid;
+    padding-bottom: 124.5px;
 }
-.ImagPostion{
+
+.ImagPostion {
     padding: 100px 150px 100px 150px;
 }
+
+#footerbackgound {
+    display: flex;
+    height: 82px;
+
+    background-color: #020E35;
+    justify-content: space-between;
+    padding-left: 150px;
+    color: #FFFFFF;
+    align-items: center;
+    font-family: Merriweather;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+
+}
+
+.SpaceFooter {
+    height: 60px;
+    width: 1920px;
+}
+
+.Cookie {
+    padding-right: 50px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    font-family: Merriweather;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.border {
+    width: 1920px;
+    height: 269px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone {
+    display: flex;
+    gap: 40px;
+    opacity: 0px;
+    width: 409.8px;
+    height: 51px;
+}
+
+.Firstbloc {
+    display: grid;
+    gap: 32px;
+    opacity: 0px;
+    width: 409.8px;
+    height: 269px;
+    gap: 32px;
+    padding-left: 150px;
+}
+
+.typography {
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #020E35;
+    width: 148px;
+}
+
+.Title_page10 {
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #020E35;
+    margin: 0px;
+
+
+}
+
+
+.Adress {
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #020E35;
+
+}
+
+.secondbloc {
+    gap: 17px;
+    opacity: 0px;
+    width: 194px;
+    height: 229px;
+    display: grid;
+
+}
+
+.Thirdbloc {
+    gap: 16px;
+    width: 154px;
+    height: 161px;
+    display: grid;
+}
+
+.SeviceTypography {
+    font-family: Merriweather;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #020E35;
+    width: 194px;
+    height: 188px;
+    cursor: pointer;
+}
+
+.circle2 {
+    top: 10190.15px;
+    position: absolute;
+    left: 0%;
+    z-index: -1;
+}
+
+.circle3 {
+    top: 10190.15px;
+    position: absolute;
+    right: 0%;
+    z-index: -1;
+}
+
